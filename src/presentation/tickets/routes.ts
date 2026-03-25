@@ -2,7 +2,9 @@ import { Router } from "express";
 import { TicketController } from "./controller";
 
 export class TicketRoutes {
-  constructor() {}
+  constructor(
+
+  ) {}
 
   static get routes() {
     const router = Router();
